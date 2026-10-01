@@ -1,0 +1,13 @@
+{
+  "project": "Battery Voltage Prediction",
+  "target": "Voltage_load",
+  "features": [
+    "Voltage_measured",
+    "Current_measured",
+    "Temperature_measured",
+    "Current_load",
+    "Time"
+  ],
+  "model": "Linear Regression",
+  "split": "chronological 80/20"
+}
